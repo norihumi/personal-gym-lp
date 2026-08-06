@@ -256,3 +256,86 @@ body{
     font-size : 15px;
     letter-spacing : 5px;
 }
+
+/* ================================
+    お客様の声
+================================== */
+.voice{
+    width : 100%;
+    background-color : #101010;
+    padding : 80px 20px;
+}
+
+.voice-container{
+    width : 100%;
+    max-width : 1000px;
+    margin : 0 auto;
+}
+
+.voice-sub{
+    color : #ccff00;
+
+    /* タイトルとのメリハリをつけるため少し調整 */
+    font-size : 24px;
+    font-weight : bold;
+    text-align : center;
+    margin-bottom : 10px;
+    letter-spacing : 5px;
+}
+
+.voice-title{
+    color : #ffffff;
+    font-size : 40px;
+    font-weight : bold;
+    text-align : center;
+    margin-bottom : 50px;
+}
+
+.voice-wrapper{
+    display : flex;
+    justify-content : center;
+    gap : 30px;
+}
+
+.voice-card{
+    flex : 1;
+    border : 5px solid #ccff00;
+    border-radius : 20px;
+    background-color : #222222;
+    padding : 30px 20px;
+    box-sizing : border-box;
+}
+
+.voice-num{
+    color : #ccff00;
+    font-size : 30px;
+    font-weight : bold;
+    text-align : center;
+    margin-bottom : 10px;
+    letter-spacing : 2px;
+}
+
+.voice-user{
+    /* 見出しを目立たせるため少しトーンを落とす */
+    color : #aaaaaa;
+    font-size : 15px;
+    text-align : center;
+    margin-bottom : 20px;
+    letter-spacing : 2px;
+}
+
+.voice-head{
+    color : #ffffff;
+    font-size : 20px;
+    font-weight : bold;
+    text-align : center;
+    margin-bottom : 15px;
+    line-height : 1.5;
+    letter-spacing : 2px;
+}
+
+.voice-text{
+    color : #c1c1c1;
+    font-size : 15px;
+    line-height : 1.7;
+}
