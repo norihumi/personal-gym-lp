@@ -492,3 +492,142 @@ body{
     box-shadow: 0 15px 30px rgba(204, 255, 0, 0.5); /* 影と光を強調！ */
     opacity: 0.95;
 }
+
+/* ================================
+    レスポンシブ
+================================== */
+@media (max-width : 768px){
+
+    /* ファーストビュー */
+    .fv{
+        padding : 40px 20px;
+    }
+
+    .fv-container{
+        flex-direction : column-reverse;
+        align-items : center;
+        text-align : center;
+        gap : 20px;
+    }
+
+    .fv-title {
+        font-size: 26px; /* スマホで見やすい文字サイズに縮小 */
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .fv-textbox{
+        margin-left : 0;
+        text-align : center;
+    }
+
+    .fv-logo {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .fv-img {
+        width: 100%;
+        max-width: 350px; /* 写真が大きくなりすぎないよう上限を設定 */
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .fv-btn{
+        margin : 0 auto;
+    }
+
+    .trouble, .reason, .voice, .price, .cta{
+        padding : 60px 20px;
+    }
+
+    /* お悩み共感 */
+    .trouble-title{
+        font-size : 28px;
+    }
+
+    .trouble-wrapper{
+        flex-direction : column;
+        align-items : center;
+        gap : 20px;
+    }
+
+    .trouble-card{
+        width : 100%;
+    }
+
+    /* 選ばれる理由 */
+    .reason-sub{
+        font-size : 18px;
+    }
+
+    .reason-title{
+        font-size : 28px;
+    }
+
+    .reason-card{
+        flex-direction : column;
+        align-items : center;
+        text-align : center;
+    }
+
+    .reason-card:nth-of-type(even){
+        flex-direction : column;
+        align-items : center;
+        text-align : center;
+    }
+
+    .reason-img{
+        width: 100%;
+        max-width: 100%; /* 画像のはみ出し防止 */
+        height: auto;
+        margin-bottom : 20px;
+    }
+
+    .reason-head{
+        font-size : 20px;
+    }
+
+    /* お客様の声 */
+    .voice-title{
+        font-size : 28px;
+    }
+
+    .voice-wrapper{
+        flex-direction : column;
+        align-items : center;
+        gap : 30px;
+    }
+
+    .voice-card {
+        width: 100%; /* カードを画面幅いっぱいに */
+    }
+
+    /* 料金プラン */
+    .price-title{
+        font-size : 28px;
+    }
+
+    .price-wrapper{
+        flex-direction : column;
+        align-items : center;
+        gap : 40px;
+    }
+
+    .price-card{
+        width : 100%;
+        max-width : 100%;
+        margin :0 auto;
+    }
+
+    /* CTA */
+    .cta-sub{
+        font-size : 22px;
+    }
+
+    .cta-btn {
+        width: 100%;      /* スマホでは画面幅いっぱい（左右余白あり）のボタンに */
+        font-size: 24px;  /* 文字のはみ出し防止 */
+        padding: 15px 10px;
+    }
+}
