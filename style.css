@@ -339,3 +339,107 @@ body{
     font-size : 15px;
     line-height : 1.7;
 }
+
+/* ================================
+    料金プラン
+================================== */
+.price{
+    width : 100%;
+    background-color : #101010;
+    padding : 80px 20px;
+}
+
+.price-container{
+    width : 100%;
+    max-width : 1000px;
+    margin : 0 auto;
+}
+
+.price-sub{
+    color : #ccff00;
+    font-size : 24px;
+    font-weight : bold;
+    letter-spacing : 5px;
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+.price-title{
+    color : #ffffff;
+    font-size : 40px;
+    font-weight : bold;
+    letter-spacing : 3px;
+    text-align : center;
+    margin-bottom : 50px;
+}
+
+.price-wrapper{
+    display : flex;
+    justify-content : center;
+    gap : 30px;
+}
+
+.price-card{
+    position : relative;
+    background-color : #1d1d1d;
+    border-radius : 15px;
+    width : 100%;
+    max-width : 450px;
+    /* ★左右のサイズを揃える透明な枠線 */
+    border : 5px solid transparent;
+    box-sizing : border-box;
+    padding-bottom : 20px;
+}
+
+.popular{
+    border : 5px solid #ccff00;
+}
+
+.price-badge{
+    position : absolute;
+    left : 50%;
+    transform : translateX(-50%);
+    top : -25px;
+    color : #ccff00;
+    background-color : #101010;
+    border-radius : 20px;
+    border : 5px solid #ccff00;
+    font-weight : bold;
+    padding : 4px 20px;
+
+    /* ★文字の折り返しを防止 */
+    white-space : nowrap;
+}
+
+.price-plan{
+    color : #ffffff;
+    font-size : 25px;
+    font-weight : bold;
+    text-align : center;
+    padding : 20px;
+}
+
+.price-amount{
+    color : #ffffff;
+    font-size : 20px;
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+.price-features{
+    padding : 0 30px 20px;
+}
+
+.price-feature-title{
+    color : #ffffff;
+    font-size : 20px;
+    font-weight : bold;
+    margin-bottom : 10px;
+}
+
+.price-item{
+    color : #ffffff;
+    font-size : 20px;
+    line-height : 1.8;
+    margin-left : 30px;
+}
