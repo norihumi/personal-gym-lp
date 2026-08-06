@@ -167,3 +167,92 @@ body{
     font-size : 25px;
     line-height :1.6;
 }
+
+/* ================================
+    選ばれる理由
+================================== */
+.reason{
+    width : 100%;
+    background-color : #101010;
+    padding : 50px 20px;
+}
+
+.reason-container{
+    width : 100%;
+    max-width : 1000px;
+    margin : 0 auto;
+}
+
+.reason-sub{
+    text-align : center;
+    color : #ccff00;
+    font-size : 35px;
+    font-weight : bold;
+    letter-spacing : 2px;
+    margin-bottom : 10px;
+}
+
+.reason-title{
+    text-align : center;
+    color : #ffffff;
+    font-size : 50px;
+    font-weight : bold;
+
+    /* タイトルが広すぎると改行されてしまうかもしれないため、あまり大きくしすぎない */
+    letter-spacing : 3px;
+    margin-bottom : 80px;
+}
+
+.reason-wrapper{
+    display : flex;
+    flex-direction : column;
+    gap : 100px;
+}
+
+.reason-card{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}
+
+.reason-card:nth-of-type(even){
+    flex-direction : row-reverse;
+}
+
+.reason-card img{
+    width : 450px;
+    height : 280px;
+    object-fit : cover;
+    border-radius : 15px;
+
+    /* 画面が狭くなっても画像が潰れないおまじない */
+    flex-shrink : 0;
+}
+
+.reason-textbox{
+    width : 450px;
+    padding : 0 15px;
+}
+
+.reason-point{
+    color : #ccff00;
+    font-size : 30px;
+    font-weight : bold;
+    letter-spacing : 5px;
+    margin-bottom : 10px;
+}
+
+.reason-head{
+    color : #ffffff;
+    font-size : 25px;
+    font-weight : bold;
+    letter-spacing : 5px;
+    line-height : 1.4;
+    margin-bottom : 15px;
+}
+
+.reason-text{
+    color : #dddddd;
+    font-size : 15px;
+    letter-spacing : 5px;
+}
