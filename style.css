@@ -101,3 +101,69 @@ body{
     /* ホバー時にうっすら光る演出 */
     box-shadow: 0 5px 15px rgba(204, 255, 0, 0.3);
 }
+
+/* ================================
+    お悩み共感
+================================== */
+.trouble{
+    width : 100%;
+    background-color : #101010;
+    padding : 80px 20px;
+}
+
+.trouble-container{
+    width : 100%;
+    max-width : 1000px;
+    margin : 0 auto;
+}
+
+.trouble-title{
+    text-align : center;
+    font-size : 45px;
+    font-weight : bold;
+    color : #ffffff;
+    padding-bottom : 50px;
+}
+
+.trouble-wrapper{
+    display : flex;
+    justify-content : center;
+    gap : 30px;
+}
+
+.trouble-card{
+    flex : 1;
+    background-color : #222222;
+    border-radius : 20px;
+    border : 5px solid #ccff00;
+    padding : 30px 15px;
+}
+
+.trouble-num{
+    color : #ccff00;
+    font-weight : bold;
+    font-size : 50px;
+    text-align : center;
+    margin-bottom : 15px;
+}
+
+.trouble-img{
+    display : block;
+    margin : 0 auto 20px auto;
+    width : 100%;
+    max-width : 250px;
+    border-radius : 8px;
+
+    /* 高さを固定 */
+    height : 160px;
+    /* 縦横比を保ってきれいに配置 */
+    object-fit : cover;
+}
+
+.trouble-text{
+    color : #ffffff;
+    font-weight : bold;
+    text-align : center;
+    font-size : 25px;
+    line-height :1.6;
+}
