@@ -1,0 +1,103 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Arial, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, sans-serif;
+}
+
+/* ================================
+    ファーストビュー
+================================== */
+.fv{
+    width : 100%;
+    background-color : #101010;
+}
+
+.fv-container{
+    width : 100%;
+    max-width : 1200px;
+
+    /* コンテナ自体を中央へ */
+    margin : 0 auto;
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.fv-imgbox{
+    flex : 1;
+    height : 100%;
+}
+
+.fv-img{
+    height : 100%;
+    width : 760px;
+    height : auto;
+    object-fit : cover;
+    display : block;
+}
+
+.fv-textbox{
+    flex : 1;
+    height : 100%;
+    padding-right : 15px;
+    text-align : right;
+    margin-left : -400px;
+    z-index : 2;
+}
+
+.fv-logo{
+    font-size : 35px;
+    font-weight : bold;
+    color : #ccff00;
+    letter-spacing : 5px;
+    margin-bottom : 10px;
+}
+
+.fv-sub{
+    color : #c5c5c5;
+    font-size : 24px;
+    font-weight : bold;
+    margin-bottom : 15px;
+}
+
+.fv-title{
+    color : #ffffff;
+    font-size : 40px;
+    font-weight : bold;
+
+    /* 行間を広げて読みやすく */
+    line-height : 1.4;
+    margin-bottom : 30px;
+    white-space : nowrap;
+}
+
+.fv-btn{
+    background-color : #ccff00;
+    border-radius : 30px;
+    transition : all 0.3s ease;
+    width : 350px;
+    margin-left : auto;
+    padding : 12px 20px;
+}
+
+.fv-btn-word{
+    font-size : 20px;
+    font-weight : bold;
+    text-align : center;
+    text-decoration : none;
+    color : #000000;
+    display : block;
+    line-height : 1.3;
+}
+
+.fv-btn:hover{
+    transform : translateY(-5px);
+
+    /* ホバー時にうっすら光る演出 */
+    box-shadow: 0 5px 15px rgba(204, 255, 0, 0.3);
+}
